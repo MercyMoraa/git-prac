@@ -1,3 +1,5 @@
 #A simple python function to greet people
 def GreetPeople(name):
-   print(f"Hi{name}")
+   out = print(f"Hi{name}")
+   return out
+GreetPeople("Mercy")
